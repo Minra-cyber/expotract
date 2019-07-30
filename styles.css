@@ -7,26 +7,31 @@ u{
 }
 p{
   font-size: 26px;
-  color:grey;
+  color:rgba(88, 58, 20, 0.945);
   text-align: center;
 }
 .i1{
   position: absolute;
-  top:200px;
+  top:160px;
   left: 150px;
 }
 .i2{
   position: absolute;
-  top:200px;
+  top:160px;
   left:500px;
 }
 .i3{
   position: absolute;
-  top:200px;
+  top:160px;
   left:850px;
 }
 .i4 {
   position: absolute;
-  top:550px;
+  top:500px;
   left:450px;
+}
+.i5{
+  position: absolute;
+  top:580px;
+  left:50px;
 }
