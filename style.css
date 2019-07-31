@@ -1,0 +1,20 @@
+.hero {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px
+}
+#form-box{
+    padding-left: 40px;
+    
+}
+#button{
+    
+    width: 250px;
+    margin-left: 200px;
+}
+.form-control{
+    width: 400px;
+}
+#amount{
+    padding-left: 300px'
+}
