@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     
@@ -33,4 +34,100 @@
   
 
 </body>
+
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="style.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>budget app</title>
+ <style>
+ </style>
+</head>
+
+<body>
+    <div class="hero">
+        <h1>Simple expense manager project</h1>
+        <h2>Add a new item:</h2>
+    </div>  
+    <div class="container">
+        <div class="jubotron">
+        <div id="form-box">
+            
+        <form>
+          <div class="inputs">
+                <div class="row">
+              <div class="col-md-6">
+            <span>Type:</span> 
+              <select name="type">
+                  <option value="card">Card</option>
+                  <option value="cash">Cash</option>
+                  <option value="cryptocoin">Cryptocoin</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          
+          <div>
+            
+            <span>Name:</span> <input class="form-control form-control-lg" name="item-name" type="text" id="name" placeholder="What did you spend on">
+
+          </div>
+          </div>
+          <div class="col-md-6">
+         
+            <span>Date:</span> <input class="form-control form-control-lg" name="date" type="date" id="date" placeholder="Large input">
+         
+          
+            <span>Amount:</span>  <input class="form-control form-control-lg" name="amount" type="text"id="amount" placeholder="Amount spent">
+          
+        </div>
+        </form>
+        </div>
+        </div>
+   
+        <div id="button"><span>Add a new expense</span></div>
+        
+        <table>
+          <tr>
+            <th id="type" class="center">type</th>
+            <th>name</th>
+            <th id="date">date</th>
+            <th style="text-align: right" id="amount">amount</th>
+          </tr>
+          <tr id="if-empty">
+            <td colspan="4"><span>Your added items will show up here!</span></td>
+          </tr>
+        
+        </table>
+        
+    
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!-- script js -->
+ <script src="index.js"></script>
+</body>
+
+
 </html>
