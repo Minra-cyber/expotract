@@ -52,7 +52,7 @@ text-decoration: underline;
 }
 .w4{ 
   position: absolute;
-  top:1050px;
+  top:1010px;
   left:550px;
 
 }
@@ -72,6 +72,11 @@ text-decoration: underline;
 }
 .y5{
   position: absolute;
-  top:1200px;
+  top:1100px;
   left:50px;
+}
+.y6{
+  position: absolute;
+  left:600px;
+  top
 }
