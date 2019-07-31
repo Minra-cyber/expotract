@@ -70,13 +70,17 @@ text-decoration: underline;
   position: absolute;
   top:1px;
 }
-.y5{
-  position: absolute;
-  top:1100px;
-  left:50px;
-}
 .y6{
   position: absolute;
-  left:600px;
-  top
+  left:20px;
+  top:1100px;
+
+}
+.y7{
+  position:absolute;
+  left:20px;
+  top:1150px;
+}
+h3{
+  color:rgb(71, 39, 9);
 }
